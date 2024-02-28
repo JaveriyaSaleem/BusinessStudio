@@ -1,0 +1,43 @@
+@font-face {
+    font-family:"Anuphan";
+    src: url(fonts/Anuphan-VariableFont_wght.ttf);
+}
+body{
+    font-family: "Anuphan";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 14vh;
+    border-style: hidden;
+    border-radius: 0px 0px 40px 40px;
+    background-color: #04492E;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:500px;
+
+}
+#logodiscrete{
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+.navul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 1.24rem;
+
+}
+#icongap{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ font-size: 1.5rem;
+}
